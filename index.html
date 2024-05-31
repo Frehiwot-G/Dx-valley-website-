@@ -36,6 +36,7 @@
 
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <!-- <script type="text/javascript" src="./data.js"></script> -->
 </head>
 
 <body>
@@ -64,17 +65,7 @@
                             <li class="nav-item  mr-lg-3 mt-lg-0 mt-3">
                                 <a class="nav-link scroll" href="#register">About Us</a>
                             </li>
-                            <!-- <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item scroll" href="#process">Process</a>
-                                    <a class="dropdown-item scroll" href="#pricing">Pricing Plans</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item scroll" href="#partners">Partners</a>
-                                </div> -->
+                         
                             </li>
                             <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
                                 <a class="nav-link scroll" href="#services">Project</a>
@@ -95,20 +86,7 @@
 
                 </nav>
             </header>
-            <!-- //header -->
-            <!-- <div class="container"> -->
-                <!-- banner-text -->
-                <!-- <div class="banner-text text-center">
-                    <div class="slider-info">
-                        <h3> a capturing headline</h3>
-                        <p class="text-white">trusted by over 300,000 businesses worldwide</p>
-                        <a class="btn btn-theme mt-lg-5 mt-3 agile-link-bnr scroll btn-outline-secondary btn-change5" href="#register" role="button">View More</a>
-                    </div>
-                </div> -->
-            <!-- </div> -->
-
-            <!-- banner -->
-            <!-- <div class="container"> -->
+        
             <div class="w3_agile_banner_info">
 				<section class="slider">
 						<div class="flexslider">
@@ -155,8 +133,7 @@
 					  });
 					});
 				</script>
-			<!-- //flexSlider -->
-			<!-- </div> -->
+		
 		</div>
 		
 			<div class="bannergrids">
@@ -167,24 +144,7 @@
 					<li><span class="fa fa-map-marker" aria-hidden="true"></span>123 Bole Rwanda Entoto servilon, Addis Ababa</li>
 				</ul>
 				<div class="clearfix"></div>
-				<!-- <div class="bannerbottom">
-					<div class="col-md-4 bannerbott1">
-						<h3><span class="fa fa-laptop" aria-hidden="true"></span>  venenatis libero</h3>
-						<p>Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
-							ut scelerisque dictum.</p>
-					</div>
-					<div class="col-md-4 bannerbott1">
-						<h3><span class="fa fa-diamond" aria-hidden="true"></span> venenatis libero</h3>
-						<p>Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
-							ut scelerisque dictum.</p>
-					</div>
-					<div class="col-md-4 bannerbott1">
-						<h3><span class="fa fa-cube" aria-hidden="true"></span> venenatis libero</h3>
-						<p>Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
-							ut scelerisque dictum.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div> -->
+				
 			</div>
         </div>
     <!-- //banner -->
@@ -192,14 +152,14 @@
         </div>
         <!-- register -->
         <div class="w3-register py-4  position-relative" id="register">
-            <img class="position-absolute img-fluid agile-img" src="images/i1.png" alt="" />
+            <img id="about_image" class="position-absolute img-fluid agile-img" src="images/i1.png" alt="" />
             <div class="container py-lg-5">
                 <div class="row register-form py-md-5">
                     <div class="offset-lg-2"></div>
                      <div class="offset-lg-4">
                     </div>
-                    <div class="col-lg-6 wthree-form-left py-md-5 pt-sm-5 pb-sm-3">
-                        <h3 class="w3l_header w3_agileits_header two"><span>Who</span> We Are</h3>
+                    <div class="col-lg-6 wthree-form-left py-md-5 pt-sm-5 pb-sm-3" id="about-us">
+                        <h3 id="about-title" class="w3l_header w3_agileits_header two"><span>Who</span> We Are</h3>
 
                         <!-- <div class="title-wthree">
                             <h3 class="agile-title">
@@ -217,12 +177,16 @@
                                             </label>
                                         </div>
                                         <div class="col-md-6">
-                                            <p>Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
+                                            <p id="about-desc">Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
                                                 ut scelerisque dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
                                                 posuere cubilia Curae; Nunc non risus in justo convallis feugiat.Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
                                                 ut scelerisque dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
                                                 posuere cubilia Curae; Nunc non risus in justo convallis feugiat.</p>
                                          </div>
+
+
+
+
                                         <!-- <div class="col-md-5">
                                             <p>Donec et venenatis libero. Fusce dapibus pulvinar tincidunt. Proin maximus ipsum 
                                                 ut scelerisque dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
@@ -922,5 +886,9 @@
 
     <!--abdi-->
 </body>
+<!-- script file -->
+
+<script type="text/javascript" src="./data.js"></script>
+
 
 </html>
